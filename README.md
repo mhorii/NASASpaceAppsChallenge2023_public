@@ -46,7 +46,7 @@ Using LLM, the following knowledge was extracted. The actual output can be found
 
 Using LLM, we convert the knowledge extracted in natural language into a formal representation. Here, we express propositional logic formulas in S-expression ("formula"). Also, atomic terms contained in the propositional logic formula are stored ("atoms").
 
-![Image1](image/image_B3MFvmj.width-1024.png)
+![Image1](image_B3MFvmj.width-1024.png)
 
 The knowledge mentioned above can be interpreted as: If it's "MissionSpecificDraft", then it's "NonApplicableRequirementsEliminated" and "WaitforPSWGRangeSafetyReview".
 
@@ -62,7 +62,11 @@ The "Bottom-up approach" approaches potential knowledge (propositions) by examin
 
 In the Bottom-up Approach, knowledge obtained from another document is referenced, and potential atomic terms are extracted using natural language processing or AI. Subsequently, the user is asked whether the extracted atomic terms holds. If they do, the description related to those atomic terms should be added to the document.
 
+![Image2](image_20JYYj1.width-1024.png)
+
 The figure above compares the content of atomic terms that hold in another document (id_pair[0]) with those validated in the document under review (id_pair[1]). If the contents of id_pair[0] and id_pair[1] are determined to be the same, then the knowledge related to id_pair[0], extracted from another document, may also hold in the document under review. Therefore, to investigate whether such knowledge is valid, we transition to the Top-down approach.
+
+![Image3](image_Hlfwul3.width-1024.png)
 
 In the Top-down approach, you ask the user to confirm whether a certain knowledge (proposition) holds true. If that knowledge holds, the description related to that knowledge should be added to the document. Furthermore, if that knowledge holds, it implies that other knowledge with the same meaning also holds true.
 
