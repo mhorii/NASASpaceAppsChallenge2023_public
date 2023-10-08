@@ -46,6 +46,8 @@ Using LLM, the following knowledge was extracted. The actual output can be found
 
 Using LLM, we convert the knowledge extracted in natural language into a formal representation. Here, we express propositional logic formulas in S-expression ("formula"). Also, atomic terms contained in the propositional logic formula are stored ("atoms").
 
+![Image1](image/image_B3MFvmj.width-1024.png)
+
 The knowledge mentioned above can be interpreted as: If it's "MissionSpecificDraft", then it's "NonApplicableRequirementsEliminated" and "WaitforPSWGRangeSafetyReview".
 
 
