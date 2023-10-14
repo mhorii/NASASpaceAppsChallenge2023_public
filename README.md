@@ -1,3 +1,5 @@
+![capture](capture.PNG)
+
 # Document management with formal and independent knowledge representatio
 ## High-Level Summary
 
